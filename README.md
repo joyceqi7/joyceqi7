@@ -8,9 +8,9 @@
 
 ## 项目
 
-### [PUBG Social Hub · AI 舆情模块](https://github.com/joyceqi7/pubg-social-hub-sentiment)
+### [PUBG Social Hub](https://github.com/joyceqi7/pubg-social-hub) · 游戏社媒分析平台
 
-Sailson 实习项目，我是舆情模块的主要完成人。每天采集五个平台官号的新增评论，用 DeepSeek 做翻译、分类、情感判断和风险识别，生成每条结论都能追溯到原评论的日报。我做了结构化输出校验、游戏术语知识库、证据约束、缓存与预算控制和独立容器部署。
+Sailson 为 PUBG MOBILE 官号运营团队开发的社媒分析平台。我参与了平台开发，其中 AI 舆情模块由我主要完成：每天采集五个平台官号的新增评论，用 DeepSeek 做翻译、分类、情感判断和风险识别，生成每条结论都能追溯到原评论的日报。
 
 `Python` `FastAPI` `DeepSeek API` `Apify` `Next.js` `Docker`
 
@@ -20,20 +20,29 @@ Sailson 实习项目，我是舆情模块的主要完成人。每天采集五个
 
 `Python` `FastAPI` `PyTorch Geometric` `DeepSeek API` `Docker`
 
+### [SailReels](https://github.com/joyceqi7/sailreels) · TikTok 短剧小程序
+
+TikTok Minis 短剧小程序。我是核心开发，负责登录、Beans 支付、订阅状态机、激励广告防刷和埋点链路，前后端都有参与。
+
+`Python` `FastAPI` `PostgreSQL` `Redis` `Celery` `React`
+
+### [TikTok 代理商中台](https://github.com/joyceqi7/tt-bc-admin) · 广告代理商业务中台
+
+TikTok 一级代理商的开户、充值、钱包和报表中台。我是支付模块的主要完成人，负责统一支付网关、幂等资金账本和退款审核。
+
+`Java` `Spring Boot` `MyBatis-Plus` `MySQL` `Redis` `Vue 3`
+
+### [TT Shop 履约系统](https://github.com/joyceqi7/tt-shop-fulfillment) · 虚拟商品自动发码
+
+TikTok Shop 美区虚拟商品的自动发码履约系统：Webhook 验签后幂等入库，arq 队列编排发货，卡密库用 SKIP LOCKED 取码，另有兜底对账、死信重试和告警。
+
+`Python` `FastAPI` `SQLAlchemy` `Redis` `arq`
+
 ### [daily-report-bot](https://github.com/joyceqi7/daily-report-bot) · 游戏社媒热点早报
 
 每天抓取 Reddit、Google News 和 YouTube Shorts 的素材，交给 Gemini 写成趋势拆解和脚本建议，生成 HTML 邮件发出，由 GitHub Actions 定时运行。
 
 `Python` `Gemini API` `GitHub Actions`
-
-## 其他实习项目
-
-代码归 Sailson 所有，没有公开，这里只写我负责的部分。
-
-| 项目 | 我负责的部分 | 技术 |
-| --- | --- | --- |
-| SailReels · TikTok 短剧小程序 | 核心开发。登录、支付与订阅状态机、激励广告防刷、埋点去重 | FastAPI、PostgreSQL、Redis、Celery、React |
-| TikTok 代理商中台 | 支付模块主要完成人。统一支付网关、幂等资金账本、退款审核 | Java、Spring Boot、MySQL、Redis、Vue 3 |
 
 ## 研究
 
