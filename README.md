@@ -8,6 +8,12 @@
 
 ## 项目
 
+### [Sailson AI 工作台](https://github.com/joyceqi7/sailson-ai) · AI 舆情与竞品监控平台
+
+Sailson 内部多部门协作的 AI 工作台，我参与了平台开发。用通义千问做 Facebook 评论的分类和情感分析，用 Apify 抓取 TikTok 数据做竞品监控和报表，管理 KOL 名单并批量发信建联、用 AI 识别回信里的报价，按部门分配权限并统计 API 成本。
+
+`Python` `Flask` `PostgreSQL` `通义千问` `Apify` `FastAPI` `React`
+
 ### [PUBG Social Hub](https://github.com/joyceqi7/pubg-social-hub) · 游戏社媒分析平台
 
 Sailson 为 PUBG MOBILE 官号运营团队开发的社媒分析平台。我参与了平台开发，其中 AI 舆情模块由我主要完成：每天采集五个平台官号的新增评论，用 DeepSeek 做翻译、分类、情感判断和风险识别，生成每条结论都能追溯到原评论的日报。
@@ -37,12 +43,6 @@ TikTok 一级代理商的开户、充值、钱包和报表中台。我是支付�
 TikTok Shop 美区虚拟商品的自动发码履约系统：Webhook 验签后幂等入库，arq 队列编排发货，卡密库用 SKIP LOCKED 取码，另有兜底对账、死信重试和告警。
 
 `Python` `FastAPI` `SQLAlchemy` `Redis` `arq`
-
-### [daily-report-bot](https://github.com/joyceqi7/daily-report-bot) · 游戏社媒热点早报
-
-每天抓取 Reddit、Google News 和 YouTube Shorts 的素材，交给 Gemini 写成趋势拆解和脚本建议，生成 HTML 邮件发出，由 GitHub Actions 定时运行。
-
-`Python` `Gemini API` `GitHub Actions`
 
 ## 研究
 
