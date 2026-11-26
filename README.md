@@ -34,6 +34,3 @@ TikTok Shop 美区虚拟商品的自动发码履约系统：Webhook 验签后幂
 
 `Python` `FastAPI` `SQLAlchemy` `Redis` `arq`
 
-## 联系
-
-2234328287hmz@gmail.com
