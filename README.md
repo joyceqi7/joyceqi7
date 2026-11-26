@@ -1,11 +1,3 @@
-# 张琪 
-
-上海理工大学系统科学硕士在读，求职方向是 AI 应用开发和 Agent 开发。
-
-- **大模型应用**：主导大模型舆情分析系统上线，负责 Prompt 设计、结构化输出校验、知识库注入和成本控制。
-- **Agent 开发**：参与移动端 AI 智能体平台的 AI Skill 设计、Agent 开发和多模型工作流编排。
-- **工程基础**：熟悉 Python、FastAPI、Docker，做过幂等支付和订阅回调，日常用 Codex、Claude Code 开发。
-
 ## 项目
 
 ### [Sailson AI 工作台](https://github.com/joyceqi7/sailson-ai) · AI 舆情与竞品监控平台
