@@ -1,5 +1,3 @@
-## 项目
-
 ### [Sailson AI 工作台](https://github.com/joyceqi7/sailson-ai) · AI 舆情与竞品监控平台
 
 Sailson 内部多部门协作的 AI 工作台，我参与了平台开发。用通义千问做 Facebook 评论的分类和情感分析，用 Apify 抓取 TikTok 数据做竞品监控和报表，管理 KOL 名单并批量发信建联、用 AI 识别回信里的报价，按部门分配权限并统计 API 成本。
@@ -35,10 +33,6 @@ TikTok 一级代理商的开户、充值、钱包和报表中台。我是支付�
 TikTok Shop 美区虚拟商品的自动发码履约系统：Webhook 验签后幂等入库，arq 队列编排发货，卡密库用 SKIP LOCKED 取码，另有兜底对账、死信重试和告警。
 
 `Python` `FastAPI` `SQLAlchemy` `Redis` `arq`
-
-## 研究
-
-硕士课题是职业事故风险传播网络的关键路径识别与稳健干预：用大模型把非结构化事故报告转成可追溯至原文的风险传播网络，再做传播仿真和预算约束下的稳健干预。
 
 ## 联系
 
